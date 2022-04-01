@@ -31,21 +31,21 @@ window.onload = function() {
         
         dentro[0].addEventListener("mouseover", function(){
             cinza[0].setAttribute("style", "font-size: 550px; opacity: 1")
-            dentro[0].setAttribute("style", "font-size: 90px; opacity: 1; background-image: linear-gradient(to left, transparent, white);")
+            dentro[0].setAttribute("style", "font-size: 70px; opacity: 1; background-image: linear-gradient(to left, transparent, white);")
         })
         
         dentro[0].addEventListener("mouseout", function(){
-            dentro[0].setAttribute("style", "font-size: 80px; opacity: 0")
+            dentro[0].setAttribute("style", "font-size: 60px; opacity: 0")
             cinza[0].setAttribute("style", "font-size: 500px; opacity: 1; background-image: linear-gradient(to left, transparent, transparent);")
         })
         
         dentro[1].addEventListener("mouseover", function(){
             cinza[1].setAttribute("style", "font-size: 550px; opacity: 1")
-            dentro[1].setAttribute("style", "font-size: 90px; opacity: 1; background-image: linear-gradient(to left, transparent, white);")
+            dentro[1].setAttribute("style", "font-size: 70px; opacity: 1; background-image: linear-gradient(to left, transparent, white);")
         })
         
         dentro[1].addEventListener("mouseout", function(){
-            dentro[1].setAttribute("style", "font-size: 80px; opacity: 0")
+            dentro[1].setAttribute("style", "font-size: 60px; opacity: 0")
             cinza[1].setAttribute("style", "font-size: 500px; opacity: 1; background-image: linear-gradient(to left, transparent, transparent);")
         })
 
