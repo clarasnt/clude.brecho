@@ -1,0 +1,139 @@
+@font-face {
+    font-family: varsity;
+    src: url('varsity_regular.ttf')
+}
+
+body{
+    font-family: varsity;
+    text-align: center;
+    background-color: rgb(150, 82, 65);
+}
+
+.dentro{
+    font-size: 80px;
+    color: black;
+    text-decoration: none;
+    transition:all 0.5s ease;
+}
+
+.menu{
+    opacity: 0;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    transition:all 0.5s ease;
+    text-decoration: none;
+    color: rgb(15, 70, 141);
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 3px;
+    text-shadow: -7px 7px black;
+}
+
+#mouse{
+    top: 50px;
+    position: relative;
+    opacity: 0;
+    font-size: 70px;
+    transition:all 0.5s ease;
+    text-decoration: none;
+    color: rgb(15, 70, 141);
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 3px;
+    text-shadow: -7px 7px black;
+}
+
+#clude{
+    top: -8px;
+    left: 15px;
+    font-size: 80px;
+}
+
+#menu_texto{
+    opacity: 0;
+    position: absolute;
+    top: -120px;
+    left: 0px;
+    transition:all 0.5s ease;
+    font-size: 100px;
+    width: 100%;
+}
+
+#roupas_menu{
+    top: -7px;
+    left: 50px;
+    font-size: 80px;
+}
+
+#menu{
+    opacity: 0;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    height: 100px;
+    width: 98%;
+    border: white solid 8px;
+    box-shadow: black -8px 8px;
+    background-color: rgb(150, 82, 65);
+    transition:all 0.5s ease;
+    text-align: center;
+    z-index: 1;
+}
+
+.cinza{
+    opacity: 0;
+    position: relative;
+    top: -800px;
+    left: -30px;
+    transition:all 0.5s ease;
+    font-size: 1400px;
+    line-height: 0px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 50px;
+    text-shadow: -80px 80px black;
+    letter-spacing: -60px;
+}
+
+#c{
+    color: rgb(26, 95, 180);
+}
+
+#l{
+    color: rgb(28, 113, 216);
+}
+
+#u{
+    color: rgb(53, 132, 228);
+}
+
+#d{
+    color: rgb(98, 160, 234);
+}
+
+#e{
+    color: rgb(153, 193, 241);
+}
+
+.title{
+    position: relative;
+    top: 200px;
+    height: 500px;
+    width: 350px;
+}
+
+#roupas{
+    position: absolute;
+    top: 920px;
+    left: 190px;
+    opacity: 0;
+    z-index: -1;
+    
+}
+
+#sociais {
+    position: absolute;
+    top: 2400px;
+    left: 170px;
+    opacity: 0;
+    z-index: -1;
+}
+

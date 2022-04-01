@@ -1,0 +1,620 @@
+@font-face {
+    font-family: varsity;
+    src: url('varsity_regular.ttf') format('opentype')
+}
+
+body{
+    text-align: center;
+    font-family: varsity;
+    background-color: rgb(150, 82, 65);
+}
+
+.div{
+    display: inline;
+    position: relative;
+    transition:all 0.5s ease;
+}
+
+.produtos{
+    color: rgb(15, 70, 141);
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 3px;
+    text-shadow: -10px 10px black;
+    opacity: 0;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    transition:all 0.5s ease;
+    text-decoration: none;
+}
+
+#todos{
+    font-size: 130px;
+}
+
+#camisa_social_zoio_folha_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camisa_social_zoio_folha{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 90px;
+    top: -360;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#camisa_social_zoio_sorridente_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camisa_social_zoio_sorridente{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 40px;
+    top: -360;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#camisa_social_zoio_tentaculos_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camisa_social_zoio_tentaculos{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 40px;
+    top: -360;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#camisa_social_libelula_caveira_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camisa_social_libelula_caveira{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    top: -360;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    z-index: -1;
+    
+}
+
+#camisa_social_gatinho_vampiro_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camisa_social_gatinho_vampiro{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    top: -360;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#saia_azul_rodada_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#saia_azul_rodada{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    top: -320px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#saia_mid_marrom_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#saia_mid_marrom{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    top: -320px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+
+#camiseta_coracao_dodoi_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camiseta_coracao_dodoi{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 70px;
+    top: -320px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    
+}
+
+#camiseta_gatinho_oculos_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camiseta_gatinho_oculos{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 70px;
+    top: -320px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#camiseta_coracao_caveira_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camiseta_coracao_caveira{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 60px;
+    top: -320px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#camiseta_lua_cogumelos_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camiseta_lua_cogumelos{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 40px;
+    top: -320px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#saia_marrom_rodada_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#saia_marrom_rodada{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    top: -320px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    
+}
+
+#camiseta_preta_machinhas_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camiseta_preta_machinhas{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 40px;
+    top: -320px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#camiseta_caveira_flor_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camiseta_caveira_flor{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 60px;
+    top: -320px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    
+}
+
+#cropped_lua_caveira_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#cropped_lua_caveira{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 60px;
+    top: -320px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#camiseta_coracao_fogo_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camiseta_coracao_fogo{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 60px;
+    top: -320px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#cropped_caveira_estrela_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#cropped_caveira_estrela{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    top: -320px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#camiseta_carinhas_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camiseta_carinhas{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 60px;
+    top: -290px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#camiseta_playplay_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camiseta_playplay{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 60px;
+    top: -290px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#camiseta_laranja_mecanica_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camiseta_laranja_mecanica{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 60px;
+    top: -320px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#camisa_social_coracao_bravo_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camisa_social_coracao_bravo{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    top: -360px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#camisa_social_coracao_fogo_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camisa_social_coracao_fogo{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    top: -360px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#sueter_coracao_aranha_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#sueter_coracao_aranha{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    top: -320px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#camisa_social_coracao_espada_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camisa_social_coracao_espada{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    top: -360px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#sueter_ursinho_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#sueter_ursinho{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    top: -290px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#corset_flor_tribal_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#corset_flor_tribal{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 90px;
+    top: -320px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+    
+}
+
+#camisa_social_triangulos_foto{
+    height: 500px;
+    width: 380px;
+    border: 5px white solid;
+    top: 2px;
+    left: 2px;
+}
+
+#camisa_social_triangulos{
+    font-size: 50px;
+    position: absolute;
+    left: 40px;
+    top: -320px;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -5px 5px black;
+    z-index: -1;
+}
+
+.menu{
+    opacity: 0;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    transition:all 0.5s ease;
+    text-decoration: none;
+    color: rgb(15, 70, 141);
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 3px;
+    text-shadow: -7px 7px black;
+}
+
+#clude{
+    top: -8px;
+    left: 15px;
+    font-size: 80px;
+}
+
+#menu_texto{
+    opacity: 0;
+    position: absolute;
+    top: -120px;
+    left: 0px;
+    transition:all 0.5s ease;
+    font-size: 100px;
+    width: 100%;
+}
+
+#roupas_menu{
+    top: -7px;
+    left: 50px;
+    font-size: 80px;
+}
+
+#menu{
+    opacity: 0;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    height: 100px;
+    width: 98%;
+    border: white solid 8px;
+    box-shadow: black -8px 8px;
+    background-color: rgb(150, 82, 65);
+    transition:all 0.5s ease;
+    text-align: center;
+    z-index: 1;
+}
