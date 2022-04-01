@@ -30,23 +30,23 @@ window.onload = function() {
         }, 50);
         
         dentro[0].addEventListener("mouseover", function(){
-            cinza[0].setAttribute("style", "font-size: 650px; opacity: 1")
+            cinza[0].setAttribute("style", "font-size: 550px; opacity: 1")
             dentro[0].setAttribute("style", "font-size: 90px; opacity: 1; background-image: linear-gradient(to left, transparent, white);")
         })
         
         dentro[0].addEventListener("mouseout", function(){
             dentro[0].setAttribute("style", "font-size: 80px; opacity: 0")
-            cinza[0].setAttribute("style", "font-size: 600px; opacity: 1; background-image: linear-gradient(to left, transparent, transparent);")
+            cinza[0].setAttribute("style", "font-size: 500px; opacity: 1; background-image: linear-gradient(to left, transparent, transparent);")
         })
         
         dentro[1].addEventListener("mouseover", function(){
-            cinza[1].setAttribute("style", "font-size: 650px; opacity: 1")
+            cinza[1].setAttribute("style", "font-size: 550px; opacity: 1")
             dentro[1].setAttribute("style", "font-size: 90px; opacity: 1; background-image: linear-gradient(to left, transparent, white);")
         })
         
         dentro[1].addEventListener("mouseout", function(){
             dentro[1].setAttribute("style", "font-size: 80px; opacity: 0")
-            cinza[1].setAttribute("style", "font-size: 600px; opacity: 1; background-image: linear-gradient(to left, transparent, transparent);")
+            cinza[1].setAttribute("style", "font-size: 500px; opacity: 1; background-image: linear-gradient(to left, transparent, transparent);")
         })
 
         menu.addEventListener("mouseover", function(){
